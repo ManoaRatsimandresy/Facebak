@@ -1,0 +1,117 @@
+/* login.css */
+
+.login {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f2f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formulaire{
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.loginBox {
+  width: 400px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.loginInput {
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  font-size: 18px;
+  padding-left: 20px;
+}
+.loginInputD {
+  height: 50px;
+  border-radius: 10px;
+  border: 0px;
+  font-size: 18px;
+  padding-left: 20px;
+  outline: none;
+}
+
+.loginInput:focus {
+  outline: none;
+}
+
+.passwordInputContainer {
+  position: relative;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.passwordToggleButton {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.loginButton {
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: #1775ee;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.loginButton:hover {
+  background-color: #125ec8;
+}
+
+.loginForgot {
+  text-align: center;
+  color: #1775ee;
+  margin-top: 10px;
+}
+
+.loginRegisterButton {
+  text-align: center;
+  margin-top: 10px;
+  color: #121ec8;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.loginRegisterButton:hover {
+  color: #121ec8;
+}
+/* login.css */
+
+/* ... (other styles) ... */
+
+.passwordInputContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.passwordToggleButton {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: -30px; /* Adjust the margin to your preference */
+}
+
+/* ... (other styles) ... */

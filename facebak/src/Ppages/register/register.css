@@ -1,0 +1,82 @@
+/* register.css */
+
+.register {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f2f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.registerBox {
+  width: 400px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.registerInput {
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  font-size: 18px;
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+.formulaire{
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.registerInputD {
+  height: 50px;
+  border-radius: 10px;
+  border: 0px;
+  font-size: 18px;
+  padding-left: 20px;
+  outline: none;
+}
+.registerInput:focus {
+  outline: none;
+}
+
+.passwordInputContainer {
+  position: relative;
+}
+
+.passwordToggleButton {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.registerButton {
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: #1775ee;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.registerButton:hover {
+  background-color: #125ec8;
+}
+.Link{
+ text-decoration: none;
+ color: #001738;
+}

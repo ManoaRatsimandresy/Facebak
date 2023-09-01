@@ -1,0 +1,58 @@
+/* Dans home.css */
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  .barsContainer {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    flex-direction: row;
+    position: relative;
+    z-index: 98;
+    gap: 100px;
+
+  }
+
+.center-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+.leftBarContainer{
+ width: 25%;
+ padding: 20px;
+ position: fixed;
+ left: 0px;
+ margin-left: 40px;
+
+}
+:root{
+  --body-color:#efefef;
+  --nav-color:#1876f2;
+  --bg-color: #fff;
+}
+
+.PostsContainer{
+width: 40%;
+margin-right: -80px;
+
+
+
+}
+
+.RightBarContainer{
+width: 25%;
+right: 20px;
+margin-right: 70px;
+padding-top: 10px;
+
+
+}
+
+
+
+  
